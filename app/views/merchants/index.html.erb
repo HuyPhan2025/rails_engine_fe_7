@@ -1,0 +1,3 @@
+<% @rails_engine.merchant_info.each do |merchant| %>
+  <%= link_to "#{merchant.name}", "/merchants/#{merchant.id}" %>
+<%end%>

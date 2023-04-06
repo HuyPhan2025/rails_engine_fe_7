@@ -1,0 +1,6 @@
+<%= @merchant.name %>
+<% @merchant_items.each do |item| %>
+  <%= item.name %>
+  <%= item.unit_price %>
+  <%= item.description %>
+<%end%>
